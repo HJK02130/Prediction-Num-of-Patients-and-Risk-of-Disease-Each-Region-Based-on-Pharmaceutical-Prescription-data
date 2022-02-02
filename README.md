@@ -16,7 +16,7 @@
 ### <div align=center> :cactus: Me :cactus: </div>
 <br />
 <div align=center>
-	<a href="hjk02130@gmail.com">hjk02130@gmail.com</a> 
+	hjk02130@gmail.com
 	<br />
 	<br />
 	<a href = "https://github.com/HJK02130"> <img src ="https://img.shields.io/badge/Github-181717.svg?&style=flat-squar&logo=Github&logoColor=white"/> </a>

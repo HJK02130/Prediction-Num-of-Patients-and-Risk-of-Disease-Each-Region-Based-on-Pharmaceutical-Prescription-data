@@ -11,6 +11,7 @@
 	<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/HJK02130/Predicting-The-Number-Of-Patients-And-Risk-Of-Each-Korea-Region-Based-On-Drug-Prescription-Data?style=social">
 	<img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/HJK02130/Predicting-The-Number-Of-Patients-And-Risk-Of-Each-Korea-Region-Based-On-Drug-Prescription-Data?style=flat-square">
 	<br />
+	<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/HJK02130/Predicting-The-Number-Of-Patients-And-Risk-Of-Each-Korea-Region-Based-On-Drug-Prescription-Data?style=flat-square">
 	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HJK02130/Predicting-The-Number-Of-Patients-And-Risk-Of-Each-Korea-Region-Based-On-Drug-Prescription-Data?style=flat-square">
 	</div>
 <br />

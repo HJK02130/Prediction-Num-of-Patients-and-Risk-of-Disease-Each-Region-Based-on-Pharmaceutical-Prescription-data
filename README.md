@@ -1,9 +1,7 @@
 # <div align=center> 의약품 처방데이터 기반 환자 수 및 지역별 위험도 예측 </div>
 #### <div align=center> Predicting The Number Of Patients And Risk Of Each Korea Region Based On Drug Prescription Data </div>
 
-<br />
 <div align=center>
-	<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FHJK02130%2FPredicting-The-Number-Of-Patients-And-Risk-Of-Each-Korea-Region-Based-On-Drug-Prescription-Data&count_bg=%233D92C8&title_bg=%2337479C&icon=smugmug.svg&icon_color=%23E7E7E7&title=hits&edge_flat=true"/></a>
 	<br />
 	<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/HJK02130/Predicting-The-Number-Of-Patients-And-Risk-Of-Each-Korea-Region-Based-On-Drug-Prescription-Data?style=flat-square">
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/HJK02130/Predicting-The-Number-Of-Patients-And-Risk-Of-Each-Korea-Region-Based-On-Drug-Prescription-Data?style=flat-square">

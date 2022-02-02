@@ -14,9 +14,9 @@
 <br />
 
 ### <div align=center> :cactus: Me :cactus: </div>
-<br />
 <div align=center>
 	<a href="hjk02130@gmail.com">mail@gmail.com</a> 
+	<br />
 	<br />
 	<a href = "HyunJiKim:hjk02130@gmail.com"> <img src ="https://img.shields.io/badge/Gmail-EA4335.svg?&style=flat-squar&logo=Gmail&logoColor=white&link="HyunjiKim:hjk02130@gmail.com""/> </a>
 

@@ -1,5 +1,5 @@
 # 데이터분석 캡스톤디자인 : 의약품 처방 데이터 기반 환자 수 및 지역별 위험도 예측
-
+<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp
 
 # 개요
 

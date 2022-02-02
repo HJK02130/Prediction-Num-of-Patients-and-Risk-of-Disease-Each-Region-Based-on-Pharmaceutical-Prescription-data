@@ -5,7 +5,9 @@
 <br />
 <div align=center>
 	<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=flat-square&logo=Visual Studio&logoColor=white"/> </div>
-<br /><br />
+
+<br />
+
 ### <div align=center> :cactus: Me :cactus: </div>
 <br />
 

@@ -12,7 +12,8 @@
 ### <div align=center> :cactus: Me :cactus: </div>
 <br />
 <div align=center>
-	<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=flat-square&logo=Visual Studio&logoColor=white"/> </div>
+	<a href = "https://github.com/HJK02130"><img alt="GitHub" src ="https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=GitHub&logoColor=white"/>
+</a> <a href = "<hjk021@khu.ac.kr>"> <img alt="Gmail" src ="https://img.shields.io/badge/Gmail-white.svg?&style=for-the-badge"/></a>
 
 # 개요
 

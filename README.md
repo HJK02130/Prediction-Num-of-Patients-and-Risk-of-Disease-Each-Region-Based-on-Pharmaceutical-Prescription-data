@@ -7,6 +7,7 @@
 
 ### <div align=center> :computer: Language & Development Environment :computer: </div>
 <div align=center>
+	<br />
 	<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> 
 	<img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=flat-square&logo=Visual Studio&logoColor=white"/> </div>
 
@@ -15,7 +16,6 @@
 
 ### <div align=center> :cactus: Me :cactus: </div>
 <div align=center>
-	<br />
 	<br />
 	<a href="mailto:hjk02130@gmail.com"> <img src ="https://img.shields.io/badge/Gmail-EA4335.svg?&style=flat-squar&logo=Gmail&logoColor=white"/> </a> 
 	<a href = "https://github.com/HJK02130"> <img src ="https://img.shields.io/badge/Github-181717.svg?&style=flat-squar&logo=Github&logoColor=white"/> </a> </div>

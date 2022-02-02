@@ -3,7 +3,7 @@
 
 <br />
 <div align=center>
-	<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FHJK02130&count_bg=%233D92C8&title_bg=%2337479C&icon=smugmug.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+	<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FHJK02130%2FPredicting-The-Number-Of-Patients-And-Risk-Of-Each-Korea-Region-Based-On-Drug-Prescription-Data&count_bg=%233D92C8&title_bg=%2337479C&icon=smugmug.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 	</div>
 <br />
 

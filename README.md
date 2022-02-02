@@ -8,8 +8,8 @@
 ### <div align=center> :computer: Language & Development Environment :computer: </div>
 <div align=center>
 	<br />
-	<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> 
-	<img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=flat-square&logo=Visual Studio&logoColor=white"/> </div>
+	<img src="https://img.shields.io/badge/Python-3766AB?style=flat-squar&logo=Python&logoColor=white"/> 
+	<img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=flat-squar&logo=Visual Studio&logoColor=white"/> </div>
 
 <br />
 <br />

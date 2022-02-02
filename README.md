@@ -3,6 +3,7 @@
 
 <div align=center>
 	<br />
+	<br />
 	<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/HJK02130/Predicting-The-Number-Of-Patients-And-Risk-Of-Each-Korea-Region-Based-On-Drug-Prescription-Data?style=flat-square">
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/HJK02130/Predicting-The-Number-Of-Patients-And-Risk-Of-Each-Korea-Region-Based-On-Drug-Prescription-Data?style=flat-square">
 	<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/HJK02130/Predicting-The-Number-Of-Patients-And-Risk-Of-Each-Korea-Region-Based-On-Drug-Prescription-Data/total?style=flat-square">

@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=transparent&color=auto&height=300&section=header&text=의약품%20처방데이터%20기반%20환자%20수%20및%20지역별%20위험도%20예측&fontSize=35&fontColor=000000&animation=fadeIn&desc=Predicting%20The%20Number%20Of%20Patients%20And%20Risk%20Of%20Each%20Korea%20Region%20Based%20On%20Drug%20Prescription%20Data&descSize=18&descAlignY=65)
 
-<img src="https://img.shields.io/badge/Python-#3776AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp
+<img src="https://img.shields.io/badge/Python-#3776AB?style=flat-square&logo=python&logoColor=white"/></a>&nbsp
 
 
 # 개요

@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=transparent&color=hexcode&height=300&section=header&text=Predicting%20The%20Number%20Of%20Patients%20And%20Risk%20Of%20Each%20Korea%20Region%20Based%20On%20Drug%20Prescription%20Data&fontAlign=75&fontSize=18)
+![header](https://capsule-render.vercel.app/api?type=transparent&color=hexcode&height=300&section=header&text=Predicting%20The%20Number%20Of%20Patients%20And%20Risk%20Of%20Each%20Korea%20Region%20Based%20On%20Drug%20Prescription%20Data&fontAlign=60&fontSize=18)
 
 
 # 데이터분석 캡스톤디자인 : 의약품 처방 데이터 기반 환자 수 및 지역별 위험도 예측

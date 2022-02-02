@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=transparent&color=auto&height=300&section=header&text=의약품%20처방데이터%20기반%20환자%20수%20및%20지역별%20위험도%20예측&fontSize=18&fontColor=000000)
+![header](https://capsule-render.vercel.app/api?type=transparent&color=auto&height=300&section=header&text=의약품%20처방데이터%20기반%20환자%20수%20및%20지역별%20위험도%20예측&fontSize=60&fontColor=000000)
 
 
 # 개요

@@ -17,7 +17,7 @@
 <br />
 <div align=center>
 	<a href = "https://github.com/HJK02130"><img src ="https://img.shields.io/badge/GitHub-181717.svg?&style=flat-square&logo=GitHub&logoColor=white"/> </a> 
-	<a href = hjk02130@gmail.com> <img src ="https://img.shields.io/badge/Gmail-EA4335.svg?&style=flat-squar&logo=Gmail&logoColor=white"/></a>
+	<a href = "<hjk021@khu.ac.kr>"> <img src ="https://img.shields.io/badge/Gmail-EA4335.svg?&style=flat-squar&logo=Gmail&logoColor=white&link=<hjk021@khu.ac.kr>"/></a>
 
 # 개요
 

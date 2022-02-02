@@ -17,14 +17,14 @@
 	</div>
 <br />
 
-### <div align=center> :keyboard: Language & Development Environment :keyboard: </div>
+### <div align=center> :computer: Language & Development Environment :computer: </div>
 <div align=center>
 	<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> 
 	<img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=flat-square&logo=Visual Studio&logoColor=white"/> </div>
 
 <br />
 
-### <div align=center> :hammer_and_wrench: Developer : Hyun Ji Kim :hammer_and_wrench: </div>
+### <div align=center> :keyboard: Developer : Hyun Ji Kim :keyboard: </div>
 <div align=center>
 	<a href="mailto:hjk02130@gmail.com"> <img src ="https://img.shields.io/badge/Gmail-EA4335.svg?&style=flat-squar&logo=Gmail&logoColor=white"/> </a> 
 	<a href = "https://github.com/HJK02130"> <img src ="https://img.shields.io/badge/Github-181717.svg?&style=flat-squar&logo=Github&logoColor=white"/> </a> </div>

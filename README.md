@@ -19,7 +19,7 @@
 	<a href="hjk02130@gmail.com">mail@gmail.com</a> 
 	<br />
 	<br />
-	<a href = "HyunJiKim:hjk02130@gmail.com"> <img src ="https://img.shields.io/badge/Gmail-EA4335.svg?&style=flat-squar&logo=Gmail&logoColor=white&link="HyunjiKim:hjk02130@gmail.com""/> </a>
+	<a href = "https://github.com/HJK02130"> <img src ="https://img.shields.io/badge/Github-181717.svg?&style=flat-squar&logo=Github&logoColor=white"/> </a>
 
 # 개요
 

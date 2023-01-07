@@ -38,9 +38,6 @@ First, we figure out the degree of association between a specific drug and vario
 <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> <br />
 <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=GoogleColab&logoColor=white"/> <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=VisualStudioCode&logoColor=white"/>
 
-### Issue
-+ make_video.py is being modifyed.
-
 ### Usage
 Filetree (modifying)
 
@@ -49,24 +46,11 @@ Filetree (modifying)
 <div align=center>  <img src="./img/architecture.png"> </div>
 
 ### Repository Explaination
-###### 📁 sdsapp<br/>Developed application folder. mainapp.dart is a main dart file.<br/>
-###### 📁 data_aquisition<br/>Data collecting code using YouTube Data API
-> ###### 📁 csv<br/>Total data collected by category. Data such as search, title, number of views, and number of likes.
-> ###### 📁 videos<br/>Metadata for each video (.json)
-> ###### 📁 subtitles<br/>Subtitle data of lecture video obtained using youtube-transcript-api
-> ###### 📁 data<br/>Summarized subtitle data (.json, .csv)
-> ###### 📄 make_recommendation.py<br/>The code that stores a list of recommendations by category
-> ###### 📄 make_video.py<br/>The code that stores metadata and recommendation list for each video
-> ###### 📄 summarize.py<br/The code that summarizes and saves the saved subtitle data
-> ###### 📄 SDS_content_based_recommendation.ipynb<br/>The code that saves a recommendation list using content based recommendation per videoID based on title
-> ###### 📄 maketsne.py<br/>The code that reduces the dimension of an image thumbnail to tsne and saves it
-
-###### 📁 firestore<br/>Data for uploading data to the Firebase Firestore database and node.js project files 
-> ###### 📄 video.json<br/>Metadata of each video and recommended list information for each video
-> ###### 📄 user.json<br/>The video ID information of the video watched and liked by the virtual user using the app.
-> ###### 📄 recommendation.json<br/>The number of views, number of likes, and recently uploaded video recommendation list for each category.
-> ###### 📄 index.js<br/>The code to upload the above files to the Firestore database. In the firebase.initializeApp() function, you must enter the value of the API key assigned to each of you.
-
+###### 📄 make_recommendation.py<br/>The code that stores a list of recommendations by category
+###### 📄 make_video.py<br/>The code that stores metadata and recommendation list for each video
+###### 📄 summarize.py<br/The code that summarizes and saves the saved subtitle data
+###### 📄 SDS_content_based_recommendation.ipynb<br/>The code that saves a recommendation list using content based recommendation per videoID based on title
+###### 📄 maketsne.py<br/>The code that reduces the dimension of an image thumbnail to tsne and saves it
 
 ### Result
 [📽 Here is Application Demo Video](https://drive.google.com/file/d/1SLPcyupCKiRhhxkCYXfACbGaBZ4pzmKs/view?usp=share_link)

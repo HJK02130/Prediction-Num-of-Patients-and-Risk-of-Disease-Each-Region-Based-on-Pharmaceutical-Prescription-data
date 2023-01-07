@@ -1,4 +1,4 @@
-# <div align=center> A Prediction of Number of Patients and Risk of Disease in Each Region Based on Pharmaceutical Prescription Data </div>
+# <div align=center> A Prediction of Number of Patients and Risk of Disease <br/> in Each Region Based on Pharmaceutical Prescription Data </div>
 
 <div align=right> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/HJK02130/Android-App-That-Recommends-Computer-Science-Lecture-Videos?style=flat-square"> <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/HJK02130/Android-App-That-Recommends-Computer-Science-Lecture-Videos?style=flat-square"> <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/HJK02130/Android-App-That-Recommends-Computer-Science-Lecture-Videos?style=flat-square"> </div>
 
@@ -18,21 +18,25 @@
 
 
 ### Overview
-  Our goal is providing a specialized Youtube environment for CS learning by limiting the Youtube videos entered in the Youtube database to CS-related videos for users who watch Youtube contents for the purpose of learning in the CS field.
-By grouping and displaying CS-related videos by category, we made it possible to watch videos suitable for learning purposes, and build a various recommendation systems so that viewers can watch a wide field of videos.<br/><br/>
 
-First, we built a database storing 2,189 YouTube video instances related to a total of 20 learning topics in the field of computer science using the Youtube API. Second, we implemented code for accessing data stored in Firebase database and interworking with flutter. Then, we implemented content-based collaborative system, association rule mining system, and image clustering with Python modeling to recommend videos to users using collected YouTube data. Also, we made UI and UX in flutter to make it easy for users to intuitively recognize the list of recommended videos by recommendation type and category, and viewing records. This project was carried out as an assignment at Kyung Hee University.</br></br>
+In the news and various materials, the number of patients with a specific disease by region is statistical data from national health examination data. And it is not accurate data because not only the entire population does not participate, but also only those over a certain age regularly participate. In addition, there are many statistics on the number of patients divided by age, sex, etc., but statistics on the number of patients divided by region can only be found about the most common diseases.<br/><br/>
+
+In this study, we predict the number of patients by region in 2018 for specific diseases. In addition, based on the number of analyzed patients, we predict the risk of occurrence of the disease by region and derive implications for the risk of the disease by region. For data analysis, we used drug prescription data from 2010 to 2017 of Korea, and predict the number of patients by region applying the 2018 drug prescription data through correlation analysis and regression analysis.<br/><br/>
   
- 최종 목표는 CS분야에서 학습을 목적으로 Youtube 콘텐츠를 시청하는 사용자를 위해 Youtube의 Database에 들어간 Youtube영상을 CS 관련 영상으로 한정하여 CS학습을 위해 특화된 Youtube 환경하는 것이다. 카테고리별 영상 묶음으로써 학습 목적에 맞는 영상 시청이 가능하도록 하였으며, 다양한 형태의 영상추천시스템 구축함으로서 폭넓은 영상 시청할 수 있도록 하고자 하였다. <br/><br/>
- 
-  첫번재로, Youtube API를 통해 수집한 computer science 분야의 학습 주제 총 20개에 관련한 2,189개의 youTube동영상 instance들을 저장하는 데이터베이스를 구축하였고, 두 번재로 Firebase의 database에 저장된 데이터에 대한 접근과 flutter의 연동을 위한 코드 구현하였다. 다름으로 수집된 YouTube 데이터를 활용해 사용자에게 영상을 추천하기 위한 content based collaborative system, Association rule mining system, image clustering을 파이썬으로 구현하였으며, 마지막으로 사용자에게 추천 유형별, 카테고리별 추천 영상들의 목록, 시청 기록 등을 직관적으로 알아보기 쉽도록 flutter에서 UI , UX구현하였다. 본 프로젝트는 경희대학교 과제로 수행되었다.
+First, we figure out the degree of association between a specific drug and various diseases for which the drug is effective through correlation analysis using Pearson's correlation coefficient. Thereafter, we obtain a linear regression equation that calculates the expected total number of patients with a disease highly related to the corresponding drug based on the number of prescriptions for the drug through a linear regression analysis between drugs and diseases with a high degree of relatedness. Finally, we substitute the number of drug prescriptions in 2018, the most recent data, into the linear regression equation and predict the number of patients with specific diseases in 2018 by region using a specific weight concept. Also we calculate the disease risk obtained by comparing with other regions.<br/><br/>
+  
+뉴스 및 각종 자료의 지역별 특정 질병의 환자 수는 국민건강검진자료로부터 통계된 자료로, 온 국민이 참여하지 않을 뿐더러 특정 연령 이상만 정기적으로 참여하기 때문에 정확한 자료가 아니다. 또한, 연령, 성별 등을 기준으로 나뉘어진 환자 수 통계는 많이 있지만, 지역을 기준으로 나뉘어진 환자 수 통계는 흔한 질병의 자료만 찾아볼 수 있다.<br/><br/>
+
+본 연구에서는 특정 질병들의 2018년 지역별 환자 수를 예측한다. 또, 분석한 환자 수를 바탕으로 해당 질병에 대한 발생 위험도를 지역별로 예측하여 지역별로 질병에 대한 위험도의 시사점을 도출한다. 데이터 분석을 위해 대한민국의 2010년에서 2017년까지의 의약품 처방 데이터를 기반으로 상관분석과 회귀분석을 통해 가장 최근 데이터인 2018년 의약품 처방 데이터를 적용시켜 지역별 환자 수를 예측한다.<br/><br/>
+
+상관분석과 회귀분석을 이용하여 결과를 도출하는 방법은 다음과 같다. 먼저, Pearson 상관계수를 이용한 상관분석을 통해 특정 의약품과 해당 의약품이 효과를 발휘하는 여러가지 질병들과의 연관된 정도(r)를 파악한다. 이후 연관된 정도가 높게 대응되는 의약품과 질병끼리의 선형회귀분석을 통해 의약품 처방건수를 바탕으로 해당 의약품과 연관성이 높은 질병의 예상 총 환자수를 산출하는 선형회귀식을 얻는다. 선형회귀식에 가장 최근 데이터인 2018년도 의약품 처방건수 데이터를 대입하고 가중치 개념을 도입하여 2018년 지역별 특정 질병들의 환자수를 예측하고 마지막으로 다른지역과 비교하여 얻어진 질병 발생 위험도를 산출한다.
 
 ### Requirements
 + Python 3.6
 
 ### Languages and Development Tools
-<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=Dart&logoColor=white"/> <br />
-<img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=GoogleColab&logoColor=white"/> <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=VisualStudioCode&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=Flutter&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=black"/> <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat-square&logo=AndroidStudio&logoColor=white"/> <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&logo=JSON&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> <br />
+<img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=GoogleColab&logoColor=white"/> <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=VisualStudioCode&logoColor=white"/>
 
 ### Issue
 + make_video.py is being modifyed.

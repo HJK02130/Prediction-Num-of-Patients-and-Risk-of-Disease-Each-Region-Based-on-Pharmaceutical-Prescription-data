@@ -7,14 +7,12 @@
 1. [Overview](#overview)
 2. [Requirements](#requirements)
 3. [Languages and Development Tools](#languages-and-development-tools)
-4. [Issue](#issue)
-5. [Usage](#usage)
-6. [Architecture](#architecture)
-7. [Repository Explaination](#repository-explaination)
-8. [Result](#result)
-9. [Conclusion](#conclusion)
-10. [Reference](#reference)
-11. [Developer](#developer)
+4. [Architecture](#architecture)
+5. [Repository Explaination](#repository-explaination)
+6. [Result](#result)
+7. [Conclusion](#conclusion)
+8. [Reference](#reference)
+9. [Developer](#developer)
 
 
 ### Overview
@@ -38,19 +36,16 @@ First, we figure out the degree of association between a specific drug and vario
 <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> <br />
 <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=GoogleColab&logoColor=white"/> <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=VisualStudioCode&logoColor=white"/>
 
-### Usage
-Filetree (modifying)
-
 ### Architecture
 [📑 Here is Detailed Project Description]()
 <div align=center>  <img src="./img/architecture.png"> </div>
 
 ### Repository Explaination
-###### 📄 make_recommendation.py<br/>The code that stores a list of recommendations by category
-###### 📄 make_video.py<br/>The code that stores metadata and recommendation list for each video
-###### 📄 summarize.py<br/The code that summarizes and saves the saved subtitle data
-###### 📄 SDS_content_based_recommendation.ipynb<br/>The code that saves a recommendation list using content based recommendation per videoID based on title
-###### 📄 maketsne.py<br/>The code that reduces the dimension of an image thumbnail to tsne and saves it
+###### 📄 correlation.py<br/> Correlation analysis between medicine and disease
+###### 📄 preprocessing.py<br/> Data preprocessing
+###### 📄 prediction.py<br/> Prediction of the number of patients by disease using linear regression and weight formula
+###### 📄 regression.ipynb<br/> Regressiong analysis for prediction of the number of patients using 
+###### 📄 transformation.py<br/> Data transforming
 
 ### Result
 [📽 Here is Application Demo Video](https://drive.google.com/file/d/1SLPcyupCKiRhhxkCYXfACbGaBZ4pzmKs/view?usp=share_link)
@@ -70,22 +65,10 @@ By implementing text summarization, it not only provides users with a simple You
 The application created through this project is expected to increase added value and build a new learning platform by contributing close to the essence of shared content. In addition, based on the above, it is expected to create a new market for low-cost app development that links three tools using free distribution tools and sources. Lastly, if the scope is expanded to parascience and medical science, it is expected that students from socially disadvantaged classes will be able to study by finding high-quality lecture contents.
 
 ### Reference
-+ Bae, J.-H., & Shin, H.-Y. (2020). 대학교육의 질 제고를 위한 이러닝 활성화 방안 연구: 유튜브 러닝 콘텐츠 사례를 중심으로. 한국융합학회논문지, 11(7), 309–317. https://doi.org/10.15207/JKCS.2020.11.7.309
-+ BAher, S., & L.M.R.J., L. (2012). Best Combination of Machine Learning Algorithms for 3Course Recommendation System in E-learning. International Journal of Computer Applications, 41(6), 1–10. https://doi.org/10.5120/5542-7598
-+ Chtouki, Y., Harroud, H., Khalidi, M., & Bennani, S. (2012). The impact of YouTube videos on the student’s learning. 2012 International Conference on Information Technology Based Higher Education and Training (ITHET), 1–4. https://doi.org/10.1109/ITHET.2012.6246045
-+ Covington, P., Adams, J., & Sargin, E. (2016). Deep Neural Networks for YouTube Recommendations. Proceedings of the 10th ACM Conference on Recommender Systems, 191–198. https://doi.org/10.1145/2959100.2959190
-+ DeWitt, D., Alias, N., Siraj, S., Yaakub, M. Y., Ayob, J., & Ishak, R. (2013). The Potential of Youtube for Teaching and Learning in the Performing Arts. Procedia - Social and Behavioral Sciences, 103, 1118–1126. https://doi.org/10.1016/j.sbspro.2013.10.439
-+ Hidalgo, E. A., Tehas, F. S., & Magana, S. de M. (n.d.). MushroomApp: A Mushroom Mobile App. 18.
-+ Jaffar, A. A. (2012). YouTube: An emerging tool in anatomy education. Anatomical Sciences Education, 5(3), 158–164. https://doi.org/10.1002/ase.1268
-+ Moon, E.-M. (2019). An Analysis on YouTube Contents to Build E-learning Videos for Interior Design Education. Journal of the Korean Institute of Interior Design, 28(6), 41–50. https://doi.org/10.14774/JKIID.2019.28.6.041
-+ Nasar, Z., Jaffry, S. W., & Malik, M. K. (2019). Textual keyword extraction and summarization: State-of-the-art. Information Processing & Management, 56(6), 102088. https://doi.org/10.1016/j.ipm.2019.102088
-+ Yoo, T., Jeong, H., Lee, D., & Jung, H. (2021, April). LectYS: A System for Summarizing Lecture Videos on YouTube. In 26th International Conference on Intelligent User Interfaces (pp. 90-92).
-+ Van der Maaten, L., & Hinton, G. (2008). Visualizing data using t-SNE. Journal of machine learning research, 9(11).
-+ https://ko.wikipedia.org/wiki/%EC%BD%94%EC%82%AC%EC%9D%B8_%EC%9C%A0%EC%82%AC%EB%8F%84
-+ https://en.wikipedia.org/wiki/Apriori_algorithm
+이상용 . (2016). 의약품처방정보 공공데이터 분석을 통한 충북의 특성 및 시사점. 충북 FOCUS, 120, 1-22.
 
 ### Developer
-Hyunji Kim, Taewon Yoo, Hyunjin Jeon.
+Hyunji Kim
 <br />
 Hyunji Kim's <a href="mailto:hjk021@khu.ac.kr"> <img src ="https://img.shields.io/badge/Gmail-EA4335.svg?&style=flat-squar&logo=Gmail&logoColor=white"/> 
 	<a href = "https://github.com/HJK02130"> <img src ="https://img.shields.io/badge/Github-181717.svg?&style=flat-squar&logo=Github&logoColor=white"/> </a>

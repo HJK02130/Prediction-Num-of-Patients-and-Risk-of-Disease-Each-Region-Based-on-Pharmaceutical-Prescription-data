@@ -29,7 +29,6 @@ First, we built a database storing 2,189 YouTube video instances related to a to
 
 ### Requirements
 + Python 3.6
-+ Android Studio 4.2.1
 
 ### Languages and Development Tools
 <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=Dart&logoColor=white"/> <br />

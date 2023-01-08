@@ -8,11 +8,12 @@
 2. [Requirements](#requirements)
 3. [Languages and Development Tools](#languages-and-development-tools)
 4. [Architecture](#architecture)
-5. [Repository Explaination](#repository-explaination)
-6. [Result](#result)
-7. [Conclusion](#conclusion)
-8. [Reference](#reference)
-9. [Developer](#developer)
+5. [Data](#data)
+6. [Repository Explaination](#repository-explaination)
+7. [Result](#result)
+8. [Conclusion](#conclusion)
+9. [Reference](#reference)
+10. [Developer](#developer)
 
 
 ### Overview
@@ -39,6 +40,13 @@ First, we figure out the degree of association between a specific drug and vario
 ### Architecture
 [📑 Here is Detailed Project Description]()
 <div align=center>  <img src="./img/architecture.png"> </div>
+
+### Data
++ 2010-2018 Pharmaceutical Prescription data (2010-2018 의약품 처방 데이터, 공공데이터포털, https://www.data.go.kr/index.do)
++ 2010-2018 Number of patients by 500 diseases with high frequency (2010-2018 다빈도 500가지 질병별 환자 수, 보건의료빅데이터개방시스템, https://opendata.hira.or.kr/home.do)
++ 2010-2018 Population by region (2010-2018 지역별 총 인구 수, 통계청, https://kostat.go.kr/portal/korea/index.action)
++ Region Code (지역코드)
+
 
 ### Repository Explaination
 ###### 📄 correlation.py<br/> Correlation analysis between medicine and disease
@@ -233,7 +241,9 @@ By implementing text summarization, it not only provides users with a simple You
 The application created through this project is expected to increase added value and build a new learning platform by contributing close to the essence of shared content. In addition, based on the above, it is expected to create a new market for low-cost app development that links three tools using free distribution tools and sources. Lastly, if the scope is expanded to parascience and medical science, it is expected that students from socially disadvantaged classes will be able to study by finding high-quality lecture contents.
 
 ### Reference
-이상용. (2016). 의약품처방정보 공공데이터 분석을 통한 충북의 특성 및 시사점. 충북 FOCUS, 120, 1-22.
++ 이상용. (2016). 의약품처방정보 공공데이터 분석을 통한 충북의 특성 및 시사점. 충북 FOCUS, 120, 1-22.
++ 약학정보원 의약품 검색 시스템, https://www.health.kr/searchDrug/search_detail.asp
++ 건강보험심사평가원 의료정보관리부. (2018). 생활속 질병통계 100선, https://repository.hira.or.kr/handle/2019.oak/1273
 
 ### Developer
 Hyunji Kim

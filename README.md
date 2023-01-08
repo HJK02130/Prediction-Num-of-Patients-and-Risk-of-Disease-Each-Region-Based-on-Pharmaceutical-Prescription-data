@@ -67,10 +67,10 @@ First, we figure out the degree of association between a specific drug and vario
 |:---:|:---|:---|:---:|:---|:---|
 |서울|882275|MINOR|경기도|1002957|NORMAL|
 |부산|959668|MINOR|강원도|875971|MINOR|
-|대구|832368|NORMAL|충청남도|1175118|CAUTION|
-|인천|1037588|NORMAL|충청북도|1229743|CAUTION|
-|광주|999680|NORMAL|전라남도|1097908|CAUTION|
-|대전|1280635|CAUTION|전라북도|1242750|NORMAL|
+|대구|832368|NORMAL|충청남도|1175118|High|
+|인천|1037588|NORMAL|충청북도|1229743|High|
+|광주|999680|NORMAL|전라남도|1097908|High|
+|대전|1280635|High|전라북도|1242750|NORMAL|
 |울산|955434|MINOR|경상남도|975949|MINOR|
 |세종|1084881|NORMAL|경상북도|923521|NORMAL|
 <br/>
@@ -80,10 +80,10 @@ First, we figure out the degree of association between a specific drug and vario
 |:---:|:---|:---|:---:|:---|:---|
 |서울|21867|MINOR|경기도|24858|NORMAL|
 |부산|23785|NORMAL|강원도|21710|MINOR|
-|대구|20630|MINOR|충청남도|30478|CAUTION|
-|인천|25716|NORMAL|충청북도|29125|CAUTION|
+|대구|20630|MINOR|충청남도|30478|High|
+|인천|25716|NORMAL|충청북도|29125|High|
 |광주|24776|NORMAL|전라남도|27211|NORMAL|
-|대전|31740|CAUTION|전라북도|30803|CAUTION|
+|대전|31740|High|전라북도|30803|High|
 |울산|23680|NORMAL|경상남도|24188|NORMAL|
 |세종|26888|NORMAL|경상북도|22889|MINOR|
 <br/>
@@ -93,27 +93,27 @@ First, we figure out the degree of association between a specific drug and vario
 
 |Region|Predicted the Number of Patients|Predicted Risk|Region|Predicted the Number of Patients|Predicted Risk|
 |:---:|:---|:---|:---:|:---|:---|
-|서울|138638|NORMAL|경기도|171180|CAUTION|
-|부산|123031|MINOR|강원도|112066|MINOR|
-|대구|102705|MINOR|충청남도|137747|NORMAL|
-|인천|146682|NORMAL|충청북도|153178|NORMAL|
-|광주|158958|NORMAL|전라남도|127405|NORMAL|
-|대전|157997|NORMAL|전라북도|125457|NORMAL|
-|울산|125870|NORMAL|경상남도|138524|NORMAL|
-|세종|233242|CAUTION|경상북도|99805|MINOR|
+|서울|138638|Medium|경기도|171180|High|
+|부산|123031|Low|강원도|112066|Low|
+|대구|102705|Low|충청남도|137747|Medium|
+|인천|146682|Medium|충청북도|153178|Medium|
+|광주|158958|Medium|전라남도|127405|Medium|
+|대전|157997|Medium|전라북도|125457|Medium|
+|울산|125870|Medium|경상남도|138524|Medium|
+|세종|233242|High|경상북도|99805|MINOR|
 
 + Allergic Rhinitis 알러지성비염 <br/>
 
 |Region|Predicted the Number of Patients|Predicted Risk|Region|Predicted the Number of Patients|Predicted Risk|
 |:---:|:---|:---|:---:|:---|:---|
-|서울|428580|NORMAL|경기도|529180|CAUTION|
-|부산|380333|MINRO|강원도|346438|MINOR|
-|대구|317499|MINRO|충청남도|425825|NORMAL|
-|인천|453448|NORMAL|충청북도|473529|CAUTION|
-|광주|491398|CAUTION|전라남도|393856|MINOR|
-|대전|488426|NORMAL|전라북도|387833|MINOR|
-|울산|389110|NORMAL|경상남도|428230|NORMAL|
-|세종|721037|CAUTION|경상북도|308532|MINOR|
+|서울|428580|Medium|경기도|529180|High|
+|부산|380333|Low|강원도|346438|Low|
+|대구|317499|Low|충청남도|425825|Medium|
+|인천|453448|Medium|충청북도|473529|High|
+|광주|491398|High|전라남도|393856|Low|
+|대전|488426|Medium|전라북도|387833|Low|
+|울산|389110|Medium|경상남도|428230|Medium|
+|세종|721037|High|경상북도|308532|Low|
 
 <br/>
 
@@ -122,14 +122,14 @@ First, we figure out the degree of association between a specific drug and vario
 
 |Region|Predicted the Number of Patients|Predicted Risk|Region|Predicted the Number of Patients|Predicted Risk|
 |:---:|:---|:---|:---:|:---|:---|
-|서울|6701|MINOR|경기도|6615|MINOR|
-|부산|6885|MINOR|강원도|6259|MINOR|
-|대구|8250|NORMAL|충청남도|7705|NORMAL|
-|인천|7456|NORMAL|충청북도|10016|CAUTION|
-|광주|5752|MINOR|전라남도|8568|CAUTION|
-|대전|8118|NORMAL|전라북도|7599|NORMAL|
-|울산|9222|CAUTION|경상남도|7171|NORMAL|
-|세종|7886|NORMAL|경상북도|9205|CAUTION|
+|서울|6701|Low|경기도|6615|Low|
+|부산|6885|Low|강원도|6259|Low|
+|대구|8250|Medium|충청남도|7705|Medium|
+|인천|7456|Medium|충청북도|10016|High|
+|광주|5752|Low|전라남도|8568|High|
+|대전|8118|Medium|전라북도|7599|Medium|
+|울산|9222|High|경상남도|7171|Medium|
+|세종|7886|Medium|경상북도|9205|High|
 
 <br/>
 
@@ -137,14 +137,14 @@ First, we figure out the degree of association between a specific drug and vario
 
 |Region|Predicted the Number of Patients|Predicted Risk|Region|Predicted the Number of Patients|Predicted Risk|
 |:---:|:---|:---|:---:|:---|:---|
-|서울|5415|NORMAL|경기도|5345|MINOR|
-|부산|5564|NORMAL|강원도|5058|MINOR|
-|대구|6667|NORMAL|충청남도|6227|NORMAL|
-|인천|6026|NORMAL|충청북도|8094|CAUTION|
-|광주|4648|MINOR|전라남도|6924|CAUTION|
-|대전|6560|NORMAL|전라북도|6141|NORMAL|
-|울산|7452|CAUTION|경상남도|5795|NORMAL|
-|세종|6373|NORMAL|경상북도|6631|NORMAL|
+|서울|5415|Medium|경기도|5345|Low|
+|부산|5564|Medium|강원도|5058|Low|
+|대구|6667|Medium|충청남도|6227|Medium|
+|인천|6026|Medium|충청북도|8094|High|
+|광주|4648|Low|전라남도|6924|High|
+|대전|6560|Medium|전라북도|6141|Medium|
+|울산|7452|High|경상남도|5795|Medium|
+|세종|6373|Medium|경상북도|6631|Medium|
 
 <br/>
 
@@ -152,14 +152,14 @@ First, we figure out the degree of association between a specific drug and vario
 
 |Region|Predicted the Number of Patients|Predicted Risk|Region|Predicted the Number of Patients|Predicted Risk|
 |:---:|:---|:---|:---:|:---|:---|
-|서울|7014|MINOR|경기도|6923|MINOR|
-|부산|7207|MINOR|강원도|6551|MINOR|
-|대구|8635|CAUTION|충청남도|8064|NORMAL|
-|인천|7804|NORMAL|충청북도|10483|CAUTION|
-|광주|6020|MINOR|전라남도|8967|CAUTION|
-|대전|8497|NORMAL|전라북도|7954|NORMAL|
-|울산|9652|CAUTION|경상남도|7506|NORMAL|
-|세종|8254|NORMAL|경상북도|8588|NORMAL|
+|서울|7014|Low|경기도|6923|Low|
+|부산|7207|Low|강원도|6551|Low|
+|대구|8635|High|충청남도|8064|Medium|
+|인천|7804|Medium|충청북도|10483|High|
+|광주|6020|Low|전라남도|8967|High|
+|대전|8497|Medium|전라북도|7954|Medium|
+|울산|9652|High|경상남도|7506|Medium|
+|세종|8254|Medium|경상북도|8588|Medium|
 
 <br/>
 
@@ -168,14 +168,14 @@ First, we figure out the degree of association between a specific drug and vario
 
 |Region|Predicted the Number of Patients|Predicted Risk|Region|Predicted the Number of Patients|Predicted Risk|
 |:---:|:---|:---|:---:|:---|:---|
-|서울|34722|MINOR|경기도|34444|MINOR|
-|부산|46212|NORMAL|강원도|27927|MINOR|
-|대구|42611|NORMAL|충청남도|42789|NORMAL|
-|인천|39391|NORMAL|충청북도|48835|CAUTION|
-|광주|29709|MINOR|전라남도|43977|NORMAL|
-|대전|46118|NORMAL|전라북도|42465|NORMAL|
-|울산|43158|NORMAL|경상남도|44007|NORMAL|
-|세종|34728|MINOR|경상북도|42171|NORMAL|
+|서울|34722|Low|경기도|34444|Low|
+|부산|46212|Medium|강원도|27927|Low|
+|대구|42611|Medium|충청남도|42789|Medium|
+|인천|39391|Medium|충청북도|48835|High|
+|광주|29709|Low|전라남도|43977|Medium|
+|대전|46118|Medium|전라북도|42465|Medium|
+|울산|43158|Medium|경상남도|44007|Medium|
+|세종|34728|Low|경상북도|42171|Medium|
 
 <br/>
 
@@ -184,14 +184,14 @@ First, we figure out the degree of association between a specific drug and vario
 
 |Region|Predicted the Number of Patients|Predicted Risk|Region|Predicted the Number of Patients|Predicted Risk|
 |:---:|:---|:---|:---:|:---|:---|
-|서울|57418|NORMAL|경기도|55455|MINOR|
-|부산|73510|CAUTION|강원도|49604|MINOR|
-|대구|66547|NORMAL|충청남도|56827|MINOR|
-|인천|50732|MINOR|충청북도|85209|CAUTION|
-|광주|71837|NORMAL|전라남도|81346|CAUTION|
-|대전|66150|NORMAL|전라북도|68728|NORMAL|
-|울산|64708|NORMAL|경상남도|71195|NORMAL|
-|세종|60889|NORMAL|경상북도|73518|CAUTION|
+|서울|57418|Medium|경기도|55455|Low|
+|부산|73510|High|강원도|49604|Low|
+|대구|66547|Medium|충청남도|56827|Low|
+|인천|50732|Low|충청북도|85209|High|
+|광주|71837|Medium|전라남도|81346|High|
+|대전|66150|Medium|전라북도|68728|Medium|
+|울산|64708|Medium|경상남도|71195|Medium|
+|세종|60889|Medium|경상북도|73518|High|
 
 <br/>
 
@@ -199,14 +199,14 @@ First, we figure out the degree of association between a specific drug and vario
 
 |Region|Predicted the Number of Patients|Predicted Risk|Region|Predicted the Number of Patients|Predicted Risk|
 |:---:|:---|:---|:---:|:---|:---|
-|서울|15826|NORMAL|경기도|15285|NORMAL|
-|부산|20261|NORMAL|강원도|13672|MINOR|
-|대구|18342|NORMAL|충청남도|15663|NORMAL|
-|인천|13983|MINOR|충청북도|23486|CAUTION|
-|광주|19800|NORMAL|전라남도|22421|CAUTION|
-|대전|18233|NORMAL|전라북도|18943|NORMAL|
-|울산|17835|NORMAL|경상남도|20263|NORMAL|
-|세종|16783|NORMAL|경상북도|19623|NORMAL|
+|서울|15826|Medium|경기도|15285|Medium|
+|부산|20261|Medium|강원도|13672|Low|
+|대구|18342|Medium|충청남도|15663|Medium|
+|인천|13983|Low|충청북도|23486|High|
+|광주|19800|Medium|전라남도|22421|High|
+|대전|18233|Medium|전라북도|18943|Medium|
+|울산|17835|Medium|경상남도|20263|Medium|
+|세종|16783|Medium|경상북도|19623|Medium|
 
 <br/>
 
@@ -215,14 +215,14 @@ First, we figure out the degree of association between a specific drug and vario
 
 |Region|Predicted the Number of Patients|Predicted Risk|Region|Predicted the Number of Patients|Predicted Risk|
 |:---:|:---|:---|:---:|:---|:---|
-|서울|253563|MINOR|경기도|255375|MINOR|
-|부산|274219|NORMAL|강원도|327428|NORMAL|
-|대구|284450|NORMAL|충청남도|334029|CAUTION|
-|인천|263656|NORMAL|충청북도|241523|MINOR|
-|광주|315621|NORMAL|전라남도|397093|CAUTION|
-|대전|287140|NORMAL|전라북도|321126|NORMAL|
-|울산|261124|MINOR|경상남도|347909|CAUTION|
-|세종|246327|NORMAL|경상북도|291975|NORMAL|
+|서울|253563|Low|경기도|255375|Low|
+|부산|274219|Medium|강원도|327428|Medium|
+|대구|284450|Medium|충청남도|334029|High|
+|인천|263656|Medium|충청북도|241523|Low|
+|광주|315621|Medium|전라남도|397093|High|
+|대전|287140|Medium|전라북도|321126|Medium|
+|울산|261124|Low|경상남도|347909|High|
+|세종|246327|Medium|경상북도|291975|Medium|
 
 
 ### Conclusion

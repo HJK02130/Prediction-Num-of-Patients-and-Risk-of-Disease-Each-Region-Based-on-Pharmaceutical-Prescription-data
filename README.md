@@ -46,7 +46,7 @@ First, we figure out the degree of association between a specific drug and vario
 + 2010-2018 Number of patients by 500 diseases with high frequency (2010-2018 다빈도 500가지 질병별 환자 수, 보건의료빅데이터개방시스템, https://opendata.hira.or.kr/home.do)
 + 2010-2018 Population by region (2010-2018 지역별 총 인구 수, 통계청, https://kostat.go.kr/portal/korea/index.action)
 + Region Code (지역코드)
-
+<br/>
 
 ### Repository Explaination
 ###### 📄 correlation.py<br/> Correlation analysis between medicine and disease

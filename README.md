@@ -1,6 +1,6 @@
 # <div align=center> A Prediction of Number of Patients and Risk of Disease <br/> in Each Region Based on Pharmaceutical Prescription Data </div>
 
-<div align=right> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/HJK02130/Android-App-That-Recommends-Computer-Science-Lecture-Videos?style=flat-square"> <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/HJK02130/Android-App-That-Recommends-Computer-Science-Lecture-Videos?style=flat-square"> <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/HJK02130/Android-App-That-Recommends-Computer-Science-Lecture-Videos?style=flat-square"> </div>
+<div align=right> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/HJK02130/Prediction-Num-of-Patients-and-Risk-of-Disease-Each-Region-Based-on-Pharmaceutical-Prescription-data?style=flat-square"> <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/HJK02130/Prediction-Num-of-Patients-and-Risk-of-Disease-Each-Region-Based-on-Pharmaceutical-Prescription-data?style=flat-square"> <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/HJK02130/Prediction-Num-of-Patients-and-Risk-of-Disease-Each-Region-Based-on-Pharmaceutical-Prescription-data?style=flat-square"> </div>
 
 
 ### Contents

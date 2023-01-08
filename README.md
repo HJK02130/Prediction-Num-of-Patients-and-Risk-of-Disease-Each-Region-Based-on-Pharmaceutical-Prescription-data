@@ -61,6 +61,7 @@ First, we figure out the degree of association between a specific drug and vario
 <br/>
 
 #### Prediction the number of patients and risk by region using the number of drug ‘428901ATB’ prescriptions
+(rounded off the first decimal place)
 + Acute Bronchitis 급성기관지염<br/>
 
 |Region|Predicted the Number of Patients|Predicted Risk|Region|Predicted the Number of Patients|Predicted Risk|

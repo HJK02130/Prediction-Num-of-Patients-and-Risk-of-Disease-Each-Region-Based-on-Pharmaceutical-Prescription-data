@@ -75,27 +75,27 @@ First, we figure out the degree of association between a specific drug and vario
 
 |Region|Predicted the Number of Patients|Predicted Risk|Region|Predicted the Number of Patients|Predicted Risk|
 |:---:|:---|:---|:---:|:---|:---|
-|서울|882275|MINOR|경기도|1002957|NORMAL|
-|부산|959668|MINOR|강원도|875971|MINOR|
-|대구|832368|NORMAL|충청남도|1175118|High|
-|인천|1037588|NORMAL|충청북도|1229743|High|
-|광주|999680|NORMAL|전라남도|1097908|High|
-|대전|1280635|High|전라북도|1242750|NORMAL|
-|울산|955434|MINOR|경상남도|975949|MINOR|
-|세종|1084881|NORMAL|경상북도|923521|NORMAL|
+|서울|882275|Low|경기도|1002957|Medium|
+|부산|959668|Low|강원도|875971|Low|
+|대구|832368|Medium|충청남도|1175118|High|
+|인천|1037588|Medium|충청북도|1229743|High|
+|광주|999680|Medium|전라남도|1097908|High|
+|대전|1280635|High|전라북도|1242750|Medium|
+|울산|955434|Low|경상남도|975949|Low|
+|세종|1084881|Medium|경상북도|923521|Medium|
 <br/>
 + Chronic Bronchitis 만성기관지염<br/>
 
 |Region|Predicted the Number of Patients|Predicted Risk|Region|Predicted the Number of Patients|Predicted Risk|
 |:---:|:---|:---|:---:|:---|:---|
-|서울|21867|MINOR|경기도|24858|NORMAL|
-|부산|23785|NORMAL|강원도|21710|MINOR|
-|대구|20630|MINOR|충청남도|30478|High|
-|인천|25716|NORMAL|충청북도|29125|High|
-|광주|24776|NORMAL|전라남도|27211|NORMAL|
+|서울|21867|Low|경기도|24858|Medium|
+|부산|23785|Medium|강원도|21710|Low|
+|대구|20630|Low|충청남도|30478|High|
+|인천|25716|Medium|충청북도|29125|High|
+|광주|24776|Medium|전라남도|27211|Medium|
 |대전|31740|High|전라북도|30803|High|
-|울산|23680|NORMAL|경상남도|24188|NORMAL|
-|세종|26888|NORMAL|경상북도|22889|MINOR|
+|울산|23680|Medium|경상남도|24188|Medium|
+|세종|26888|Medium|경상북도|22889|Low|
 <br/>
 
 #### Prediction the number of patients and risk by region using the number of drug ‘220902ATB’ prescriptions
@@ -110,7 +110,7 @@ First, we figure out the degree of association between a specific drug and vario
 |광주|158958|Medium|전라남도|127405|Medium|
 |대전|157997|Medium|전라북도|125457|Medium|
 |울산|125870|Medium|경상남도|138524|Medium|
-|세종|233242|High|경상북도|99805|MINOR|
+|세종|233242|High|경상북도|99805|Low|
 
 + Allergic Rhinitis 알러지성비염 <br/>
 

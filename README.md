@@ -6,13 +6,14 @@
 ### Contents
 1. [Overview](#overview)
 2. [Languages and Development Tools](#languages-and-development-tools)
-3. [Architecture](#architecture)
-4. [Data](#data)
-5. [Repository Explaination](#repository-explaination)
-6. [Result](#result)
-7. [Conclusion](#conclusion)
-8. [Reference](#reference)
-9. [Developer](#developer)
+3. [Usage](#usage)
+4. [Architecture](#architecture)
+5. [Data](#data)
+6. [Repository Explaination](#repository-explaination)
+7. [Result](#result)
+8. [Conclusion](#conclusion)
+9. [Reference](#reference)
+10. [Developer](#developer)
 
 
 ### Overview
@@ -32,6 +33,14 @@ First, we figure out the degree of association between a specific drug and vario
 ### Languages and Development Tools
 <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> <br />
 <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=GoogleColab&logoColor=white"/> <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=VisualStudioCode&logoColor=white"/>
+
+### Usage
+└── src/
+    ├── correlation.py
+    ├── preidction.py
+    ├── preprocessing.py
+    ├── regression.py
+    └── transformation.py
 
 ### Architecture
 <div align=center>  <img src="./img/architecture.png"> </div>

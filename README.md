@@ -56,7 +56,7 @@ First, we figure out the degree of association between a specific drug and vario
 <br/>
 
 ### Result
-[📽 Here is Application Demo Video](https://drive.google.com/file/d/1ZGazFyvy2vYYvYeUUHTiIFpL_58SCBsb/view?usp=share_link)
+[📽 Here is Demo Video](https://drive.google.com/file/d/1ZGazFyvy2vYYvYeUUHTiIFpL_58SCBsb/view?usp=share_link)
 
 #### Example of Correlation Analysis and Regression Analysis
 + Pearson correlation coefficient(r) between '428901ATB' and Acute Bronchitis <br/>

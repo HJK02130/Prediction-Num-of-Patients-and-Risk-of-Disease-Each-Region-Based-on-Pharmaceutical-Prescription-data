@@ -5,15 +5,14 @@
 
 ### Contents
 1. [Overview](#overview)
-2. [Requirements](#requirements)
-3. [Languages and Development Tools](#languages-and-development-tools)
-4. [Architecture](#architecture)
-5. [Data](#data)
-6. [Repository Explaination](#repository-explaination)
-7. [Result](#result)
-8. [Conclusion](#conclusion)
-9. [Reference](#reference)
-10. [Developer](#developer)
+2. [Languages and Development Tools](#languages-and-development-tools)
+3. [Architecture](#architecture)
+4. [Data](#data)
+5. [Repository Explaination](#repository-explaination)
+6. [Result](#result)
+7. [Conclusion](#conclusion)
+8. [Reference](#reference)
+9. [Developer](#developer)
 
 
 ### Overview
@@ -29,9 +28,6 @@ First, we figure out the degree of association between a specific drug and vario
 본 연구에서는 특정 질병들의 2018년 지역별 환자 수를 예측한다. 또, 분석한 환자 수를 바탕으로 해당 질병에 대한 발생 위험도를 지역별로 예측하여 지역별로 질병에 대한 위험도의 시사점을 도출한다. 데이터 분석을 위해 대한민국의 2010년에서 2017년까지의 의약품 처방 데이터를 기반으로 상관분석과 회귀분석을 통해 가장 최근 데이터인 2018년 의약품 처방 데이터를 적용시켜 지역별 환자 수를 예측한다.<br/><br/>
 
 상관분석과 회귀분석을 이용하여 결과를 도출하는 방법은 다음과 같다. 먼저, Pearson 상관계수를 이용한 상관분석을 통해 특정 의약품과 해당 의약품이 효과를 발휘하는 여러가지 질병들과의 연관된 정도(r)를 파악한다. 이후 연관된 정도가 높게 대응되는 의약품과 질병끼리의 선형회귀분석을 통해 의약품 처방건수를 바탕으로 해당 의약품과 연관성이 높은 질병의 예상 총 환자수를 산출하는 선형회귀식을 얻는다. 선형회귀식에 가장 최근 데이터인 2018년도 의약품 처방건수 데이터를 대입하고 가중치 개념을 도입하여 2018년 지역별 특정 질병들의 환자수를 예측하고 마지막으로 다른지역과 비교하여 얻어진 질병 발생 위험도를 산출한다.
-
-### Requirements
-+ Python 3.6
 
 ### Languages and Development Tools
 <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> <br />

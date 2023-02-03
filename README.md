@@ -35,12 +35,12 @@ First, we figure out the degree of association between a specific drug and vario
 <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=GoogleColab&logoColor=white"/> <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=VisualStudioCode&logoColor=white"/>
 
 ### Usage
-└── src/
-    ├── correlation.py
-    ├── preidction.py
-    ├── preprocessing.py
-    ├── regression.py
-    └── transformation.py
+└── src/<br/>
+    ├── correlation.py<br/>
+    ├── preidction.py<br/>
+    ├── preprocessing.py<br/>
+    ├── regression.py<br/>
+    └── transformation.py<br/>
 
 ### Architecture
 <div align=center>  <img src="./img/architecture.png"> </div>

@@ -38,7 +38,6 @@ First, we figure out the degree of association between a specific drug and vario
 <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=GoogleColab&logoColor=white"/> <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=VisualStudioCode&logoColor=white"/>
 
 ### Architecture
-[📑 Here is Detailed Project Description]()
 <div align=center>  <img src="./img/architecture.png"> </div>
 
 ### Data
